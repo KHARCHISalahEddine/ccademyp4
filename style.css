@@ -1,0 +1,113 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+nav {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px seashell;
+}
+@media only screen and (max-width: 588px) {
+  nav {
+    display: block;
+    text-align: center;
+    min-height: 69px;
+  }
+}
+#logo {
+  margin-left: 10px;
+  height: 50px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  overflow: hidden;
+  text-align: center;
+}
+header {
+  height: 700px;
+  background-image: url(./pics/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: grey;
+  opacity: 0.8;
+  align-content: center;
+  text-align: center;
+}
+.head-title,
+.head-desc {
+  background-color: black;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.menu-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.menu-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card .card-pic {
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+}
+.card .card-caption {
+  margin-top: 10px;
+}
+/* Location section */
+section.locations-section {
+  min-height: 600px;
+  background-image: url(pics/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: grey;
+  align-content: center;
+}
+.locations-title {
+  margin-bottom: 15px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.cards .card-location {
+  background-color: black;
+  width: 300px;
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.cards .card-location h4 {
+  margin: 35px 0;
+}
+/* footer */
+footer .infos {
+  height: 200px;
+  text-align: center;
+}
+footer .copyright {
+  margin-left: 20px;
+}
